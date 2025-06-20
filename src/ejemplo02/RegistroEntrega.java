@@ -37,7 +37,7 @@ public class RegistroEntrega {
                 case 3:
                     System.out.println("Lista de Entregas: ");
                     for (int i = 0; i < entregas.size(); i++){
-                        System.out.println("-" + entregas.get(i));
+                        System.out.println(" " + i + "-" + entregas.get(i));
                     }
                     break;
                 case 4:
